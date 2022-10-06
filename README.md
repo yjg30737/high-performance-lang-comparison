@@ -32,4 +32,4 @@ julia a.jl
 ## Performance comparison
 Figure it out by yourself.
 
-I will improve this to test all of them more easier and efficient.
+I will improve this.. i guess i always say that.
