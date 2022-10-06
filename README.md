@@ -28,3 +28,6 @@ script itself will show result as "it took ... seconds".
 // Julia
 julia a.jl
 ```
+
+## Performance comparison
+Figure it out by yourself.
