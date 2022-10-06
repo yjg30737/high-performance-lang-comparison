@@ -11,6 +11,8 @@ python a.py
 // R
 Install the PyCharm and download R extension, run it
 
+If you see the error about UTF-8 blah blah, don't be bothered. It's nothing.
+
 // Go
 go run a.go
 
