@@ -1,0 +1,11 @@
+[package]
+name="high-performance-lang-comparison"
+version="0.0.1"
+edition="2021"
+
+[[bin]]
+name="a"
+path="a.rs"
+
+[dependencies]
+rand = "0.8.3"
