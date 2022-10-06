@@ -1,5 +1,5 @@
 # high-performance-lang-comparison
-I'm still working on it, better not use it
+<b>I'm still working on it, better not use it</b>
 
 Compare performance between Python, R, Go, Julia
 
