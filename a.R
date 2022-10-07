@@ -5,4 +5,5 @@ first = rnorm(10000000)
 second = rnorm(10000000)
 rst = first*second
 end_time <- Sys.time()
-end_time - start_time
+res_time = end_time - start_time
+cat(sprintf("%f seconds\n", res_time))

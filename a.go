@@ -26,6 +26,6 @@ func main() {
 	}
 
 	finish := time.Since(start)
-	fmt.Printf("Time: ", finish)
+	fmt.Printf("%v seconds\n", finish.Seconds())
 
 }
