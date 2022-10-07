@@ -31,9 +31,11 @@ script itself will show result as "it took ... seconds".
 julia a.jl
 ```
 
-### 2. Run a.bat file
+### 2. Run a.bat
 
-Note: Rust is not included.
+### 3. Run compare.py
+
+Note for 2, 3: Rust is not included.
 
 ## Performance comparison
 Figure it out by yourself.
