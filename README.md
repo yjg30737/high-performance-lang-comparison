@@ -1,6 +1,8 @@
 # high-performance-lang-comparison
 Compare performance between Python(numpy), R, Go, Rust, Julia
 
+This checks the performance of each language by multiplying randomized float value between 0 and 1 10,000,000 times.  
+
 Based on <a href="https://www.datascienceland.com/blog/performance-between-python-r-julia-and-go-which-one-is-better-29">this article</a> except for Rust.
 
 Note: Cargo.toml is Rust version of package.json. If you want to run Rust script, you should not delete it.
