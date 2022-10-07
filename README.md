@@ -1,7 +1,9 @@
 # high-performance-lang-comparison
 Compare performance between Python(numpy), R, Go, Rust, Julia
 
-This checks the performance of each language by multiplying randomized float value between 0 and 1 <b>10,000,000</b> times.
+This checks the performance of each language by multiplying randomized float value between 0 and 1 <b>10,000,000</b> times by default.
+
+You can change the number of times.
 
 Note: Cargo.toml is Rust version of package.json. If you want to run Rust script, you should not delete it.
 
@@ -12,6 +14,7 @@ python compare.py
 ## Performance comparison
 In my case
 ```batch
+Input number(10,000,000 by default): 
 R: 0.928009 seconds
 Go: 0.2529853 seconds
 Python: 0.14574241638183594 seconds
