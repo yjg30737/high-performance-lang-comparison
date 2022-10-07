@@ -6,6 +6,8 @@ Based on <a href="https://www.datascienceland.com/blog/performance-between-pytho
 Note: Cargo.toml is Rust version of package.json. If you want to run Rust script, you should not delete it.
 
 ## How to test
+### 1. Execute every single commands by yourself
+
 Open the command prompt or something like that, and do below
 
 ```
@@ -28,6 +30,8 @@ script itself will show result as "it took ... seconds".
 // Julia
 julia a.jl
 ```
+
+### 2. Run a.bat file
 
 ## Performance comparison
 Figure it out by yourself.
