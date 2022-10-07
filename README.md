@@ -21,6 +21,9 @@ python a.py
 
 // R
 Install the PyCharm and download R extension, run it
+or
+Add Rscript.exe in R directory(Presumably C:\Program Files\R\R-4.2.1\bin) to system path and type below
+Rscript a.R
 
 If you see the error about UTF-8 blah blah, don't be bothered. It's nothing.
 
@@ -30,7 +33,7 @@ go run a.go
 // Rust
 cargo run --release
 Note: --release option for optimization. This command will make exe contained directory. But you don't have to run it
-script itself will show result as "it took ... seconds".
+script itself will show result as "... seconds".
 
 // Julia
 julia a.jl
