@@ -1,7 +1,7 @@
 # high-performance-lang-comparison
 Compare performance between Python(numpy), R, Go, Rust, Julia
 
-This checks the performance of each language by multiplying randomized float value between 0 and 1 10,000,000 times.  
+This checks the performance of each language by multiplying randomized float value between 0 and 1 <b>10,000,000</b> times.  
 
 Based on <a href="https://www.datascienceland.com/blog/performance-between-python-r-julia-and-go-which-one-is-better-29">this article</a> except for Rust.
 
