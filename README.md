@@ -44,11 +44,13 @@ Note for 2, 3: Rust is not included.
 
 ## Performance comparison
 In my case
-```
-Python: 1.4540605545043945 seconds
-R: 0.929553 seconds
-Go: 0.2436629 seconds
-Julia: 0.058122 seconds
+```batch
+Python: 1.5005278587341309 seconds
+R: 0.950729 seconds
+Go: 0.241347 seconds
+REM updating/compiling/finished/running output for Rust
+Rust: 0.0919479 seconds
+Julia: 0.059469 seconds
 Press Any Key To Close This Window...
 ```
 
