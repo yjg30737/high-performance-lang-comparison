@@ -56,4 +56,8 @@ Press Any Key To Close This Window...
 
 How about you?
 
+## Note
+
+For Rust, it will make a bunch of files. Feel free to remove it after you've done the test.
+
 
