@@ -12,7 +12,8 @@ fn timeit<F: Fn() -> T, T>(f: F) -> T {
 
 fn rng_gen_mul() {
     let mut rng = thread_rng();
-    for _ in 0..10000000 {
+    let n = 10000000;
+    for _ in 0..n {
         let n1 = rng.gen::<f64>();
         let n2 = rng.gen::<f64>();
         let _: f64 = n1*n2;
