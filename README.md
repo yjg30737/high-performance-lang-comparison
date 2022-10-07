@@ -58,6 +58,6 @@ How about you?
 
 ## Note
 
-For Rust, it will make a bunch of files. Feel free to remove it after you've done the test.
+For Rust, it will make a bunch of files while running the test. Feel free to remove it after you've done the test.
 
 
