@@ -6,4 +6,4 @@ second = rnorm(10000000)
 rst = first*second
 end_time <- Sys.time()
 res_time = end_time - start_time
-cat(sprintf("%f seconds\n", res_time))
+cat(sprintf("R: %f seconds\n", res_time))

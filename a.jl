@@ -8,4 +8,4 @@ end
 n = @elapsed begin
     multiply()
 end
-@printf("%f seconds\n", n)
+@printf("Julia: %f seconds\n", n)

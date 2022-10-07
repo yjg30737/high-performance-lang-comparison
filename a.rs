@@ -6,7 +6,7 @@ fn timeit<F: Fn() -> T, T>(f: F) -> T {
     let result = f();
     let end = SystemTime::now();
     let duration = end.duration_since(start).unwrap();
-    println!("{} seconds", duration.as_secs_f64());
+    println!("Rust: {} seconds", duration.as_secs_f64());
     result
 }
 
