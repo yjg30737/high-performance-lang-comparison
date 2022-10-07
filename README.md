@@ -60,4 +60,10 @@ How about you?
 
 For Rust, it will make a bunch of files while running the test. Feel free to remove it after you've done the test.
 
+You can remove
+```
+target
+Cargo.lock
+```
+
 
