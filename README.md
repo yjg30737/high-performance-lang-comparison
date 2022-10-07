@@ -41,6 +41,15 @@ julia a.jl
 Note for 2, 3: Rust is not included.
 
 ## Performance comparison
-Figure it out by yourself.
+In my case
+```
+Python: 1.4540605545043945 seconds
+R: 0.929553 seconds
+Go: 0.2436629 seconds
+Julia: 0.058122 seconds
+Press Any Key To Close This Window...
+```
 
-I will improve this.. i guess i always say that.
+How about you?
+
+
