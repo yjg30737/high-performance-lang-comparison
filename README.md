@@ -33,6 +33,8 @@ julia a.jl
 
 ### 2. Run a.bat file
 
+Note: Rust is not included.
+
 ## Performance comparison
 Figure it out by yourself.
 
