@@ -21,7 +21,7 @@ Python: 0.14574241638183594 seconds
 REM updating/compiling/finished/running output for Rust
 Rust: 0.0926837 seconds
 Julia: 0.064706 seconds
-Press Any Key To Close This Window...
+Press Any Key...
 ```
 
 How about you?
