@@ -1,7 +1,8 @@
 # Sys.setlocale('LC_ALL', locale = 'c')
-
+#!/usr/bin/env Rscript
+args = commandArgs(trailingOnly=TRUE)
 start_time <- Sys.time()
-n = 10000000
+n = as.integer(args)
 first = rnorm(n)
 second = rnorm(n)
 rst = first*second

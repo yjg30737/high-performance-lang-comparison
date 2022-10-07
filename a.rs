@@ -1,3 +1,4 @@
+use std::env;
 use rand::prelude::*;
 use std::time::SystemTime;
 
@@ -10,9 +11,8 @@ fn timeit<F: Fn() -> T, T>(f: F) -> T {
     result
 }
 
-fn rng_gen_mul() {
+fn rng_gen_mul(n: i64) {
     let mut rng = thread_rng();
-    let n = 10000000;
     for _ in 0..n {
         let n1 = rng.gen::<f64>();
         let n2 = rng.gen::<f64>();
@@ -21,5 +21,7 @@ fn rng_gen_mul() {
 }
 
 fn main() {
-    timeit(|| rng_gen_mul());
+    let args: Vec<String> = env::args().collect();
+    let n = &args[1].parse::<i64>().unwrap();
+    timeit(|| rng_gen_mul(*n));
 }

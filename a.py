@@ -1,8 +1,10 @@
+import sys
+
 import numpy as np
 
 import time
 
-n = 10000000
+n = int(sys.argv[1])
 
 start_time = time.time()
 
