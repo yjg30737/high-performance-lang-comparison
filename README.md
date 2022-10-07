@@ -6,6 +6,9 @@ Based on <a href="https://www.datascienceland.com/blog/performance-between-pytho
 Note: Cargo.toml is Rust version of package.json. If you want to run Rust script, you should not delete it.
 
 ## How to test
+
+There are three ways to do it.
+
 ### 1. Execute every single commands by yourself
 
 Open the command prompt or something like that, and do below
