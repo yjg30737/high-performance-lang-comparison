@@ -6,9 +6,9 @@ This checks the performance of each language by multiplying randomized float val
 Note: Cargo.toml is Rust version of package.json. If you want to run Rust script, you should not delete it.
 
 ## How to test
-
-`python compare.py`
-
+```powershell
+python compare.py
+```
 ## Performance comparison
 In my case
 ```batch
