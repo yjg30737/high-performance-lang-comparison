@@ -1,9 +1,9 @@
 # high-performance-lang-comparison
 Compare performance between Python(numpy), R, Go, Rust, Julia
 
-This checks the performance of each language by multiplying randomized float value between 0 and 1 <b>10,000,000</b> times by default.
+This checks the performance of each language by multiplying two randomized float values between 0 and 1 <b>10,000,000</b> times by default.
 
-You can change the number of times.
+You can change the number of times of calculation.
 
 ## How to test
 ```powershell
