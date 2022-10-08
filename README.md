@@ -38,4 +38,4 @@ Cargo.lock
 
 <b>Cargo.toml</b> is Rust version of package.json. If you want to run Rust script, you should not delete it.
 
-This is working for only Windows currently.
+This is working for only Windows currently, because commands are running through Windows batch file.
