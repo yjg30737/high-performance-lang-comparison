@@ -5,8 +5,6 @@ This checks the performance of each language by multiplying randomized float val
 
 You can change the number of times.
 
-Note: Cargo.toml is Rust version of package.json. If you want to run Rust script, you should not delete it.
-
 ## How to test
 ```powershell
 python compare.py
@@ -28,7 +26,9 @@ How about you?
 
 ## Note
 
-For Rust, it will make a bunch of files while running the test. Feel free to remove it after you've done the test.
+### For Rust
+
+Rust will make a bunch of files while running the test. Feel free to remove it after you've done the test.
 
 You can remove
 ```
@@ -36,4 +36,6 @@ target
 Cargo.lock
 ```
 
+<b>Cargo.toml</b> is Rust version of package.json. If you want to run Rust script, you should not delete it.
 
+This is working for only Windows currently.
