@@ -5,6 +5,8 @@ This checks the performance of each language by multiplying two randomized float
 
 You can change the number of times of calculation.
 
+Maximum number is 2147483647(Limits on Integer Constants). It shall be like it since working with large arrays can be very memory-intensive and may require a lot of processing power, so the calculation may take a long time to complete.
+
 ## How to test
 ```powershell
 python compare.py
