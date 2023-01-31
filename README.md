@@ -41,3 +41,6 @@ Cargo.lock
 <b>Cargo.toml</b> is Rust version of package.json. If you want to run Rust script, you should not delete it.
 
 This is working for only Windows currently, because commands are running through Windows batch file.
+
+## See Also
+* <a href="https://github.com/yjg30737/pyside-lang-comparison-graph">pyside-lang-comparison-graph</a> - GUI version
